@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+body {
+    background: #220749;
+    padding: 2rem; 
+    text-align: center;
+    color: #fff;
+}
+
+h1 {
+    margin: 4rem auto;
+    font-size: 4rem;
+    font-family: "Pacifico", Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.35s ease;
+}
+
+span {
+    color: #8df6b0;
+    transition: color 0.35s ease;
+}
+
+a:hover,
+a:active {
+    color: #8df6b0;
+}
+
+a:hover span,
+a:active span {
+    color: #fff;
+}
